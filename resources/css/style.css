@@ -1,0 +1,152 @@
+html {
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+.SmallLogo {
+  position: fixed;
+  z-index: 3;
+}
+.SmallLogo img {
+  height: 6rem;
+}
+/* Large Window formating*/
+.LargeWindow {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://cdn.wallpapersafari.com/64/80/5fdJgO.jpg');
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  z-index: 1
+}
+.ImgLargeWindow img{
+
+  height: 25rem;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.ImgLargeWindow{
+  position: fixed;
+
+  align-items: center;
+  margin-top: 400px;
+  max-width: 100%;
+
+}
+
+.ContentLargeWindow{
+  position: fixed;
+
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+
+  max-width: 60%;
+  line-height: 1.2;
+}
+/* Main Body Formating */
+
+
+.PicutureContainers {
+  position: absolute;
+  flex-direction: column;
+  background-color: white;
+  z-index: 2;
+
+}
+.MainPicImg {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  margin:auto;
+}
+.MainPicImg img{
+  max-width: 50%;
+
+}
+
+.MainBodyTextBox{
+  position: absolute;
+  margin:13% 0 0 0 ;
+
+  vertical-align: middle;
+  background-color: orange;
+  padding: 10px 30px;
+}
+.MainBodyTextBox h3{
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.MainBodyTextBox p{
+  font-size: 1.25rem;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
