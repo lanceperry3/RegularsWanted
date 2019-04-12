@@ -1,7 +1,7 @@
 html {
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   font-size: 16px;
-  background-color: white;
+
 }
 
 .SmallLogo {
@@ -12,6 +12,7 @@ html {
   height: 6rem;
 }
 /* Large Window formating*/
+
 .LargeWindow {
 
   display: flex;
@@ -50,7 +51,6 @@ html {
 
 .ContentLargeWindow{
   position: fixed;
-
   align-items: center;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -64,10 +64,15 @@ html {
 /* Main Body Formating */
 
 
+.MainBody{
+
+  background-color: #5F5F5F;
+  padding-bottom: 500px;
+}
 .PicutureContainers {
   position: absolute;
-  flex-direction: column;
-  background-color: white;
+  background-color: #5F5F5F;
+  padding-bottom: 500px;
   z-index: 2;
 
 }
@@ -87,11 +92,10 @@ html {
 .MainBodyTextBox{
   position: absolute;
   margin:13% 0 0 0 ;
-
-  vertical-align: middle;
   background-color: orange;
   padding: 10px 30px;
 }
+
 .MainBodyTextBox h3{
   font-size: 2rem;
   padding: 10px;
@@ -103,7 +107,15 @@ html {
   padding: 10px;
   text-align: center;
 }
+/* Bottom of main body*/
+footer {
+  position: absolute;
 
+  z-index: 4;
+  color: white;
+  background-color: black;
+
+}
 
 
 
