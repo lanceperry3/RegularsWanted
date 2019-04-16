@@ -18,7 +18,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url('https://cdn.wallpapersafari.com/64/80/5fdJgO.jpg');
+  background-color: navy;
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -67,50 +67,57 @@ html {
 .MainBody{
 
   background-color: #5F5F5F;
-  padding-bottom: 500px;
+  bottom: 500px;
+  width: 100%;
 }
 .PicutureContainers {
   position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: #5F5F5F;
-  padding-bottom: 500px;
+  width: 100%;
   z-index: 2;
 
 }
 .MainPicImg {
-
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-around;
   align-items: center;
+
   padding-top: 2rem;
-  margin:auto;
+  padding-bottom: 2rem;
+
 }
 .MainPicImg img{
+
   max-width: 50%;
 
 }
-
-.MainBodyTextBox{
+.MainBodyTextBox {
   position: absolute;
-  margin:13% 0 0 0 ;
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-around;
+  display: inline-block;
+  text-align: center;
   background-color: orange;
-  padding: 10px 30px;
+  font-size: 4rem;
+  padding: 20px;
 }
-
 .MainBodyTextBox h3{
   font-size: 2rem;
-  padding: 10px;
-  text-align: center;
 }
-
 .MainBodyTextBox p{
-  font-size: 1.25rem;
-  padding: 10px;
-  text-align: center;
+  font-size: 1rem;
 }
 /* Bottom of main body*/
 footer {
-  position: absolute;
-
+  position: fixed;
+  width: 100%;
   z-index: 4;
   color: white;
   background-color: black;
