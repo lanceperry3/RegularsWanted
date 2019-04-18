@@ -1,6 +1,10 @@
 html {
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: Georgia, Arial, Helvetica, sans-serif;
   font-size: 16px;
+
+}
+body{
+  position: relative;
 
 }
 
@@ -28,27 +32,33 @@ html {
   background-size: cover;
   height: 1000px;
   width: 100%;
-  margin: 0;
-  padding: 0;
-
   z-index: 1
-}
-.ImgLargeWindow img{
-
-  height: 25rem;
-  padding: 2rem;
-  max-width: 100%;
 }
 
 .ImgLargeWindow{
-  position: fixed;
-
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 400px;
+  position: fixed;
+  margin:auto;
+  margin-top: 100px;
   max-width: 100%;
-
 }
 
+.ImgLargeWindow img{
+  align-items: center;
+  height: 25rem;
+  margin:auto;
+  max-width: 100%;
+}
+
+.ImgLargeWindow p {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  padding: 2rem;
+}
+/*
 .ContentLargeWindow{
   position: fixed;
   align-items: center;
@@ -61,14 +71,15 @@ html {
   max-width: 60%;
   line-height: 1.2;
 }
+*/
 /* Main Body Formating */
 
 
 .MainBody{
 
   background-color: #5F5F5F;
-  bottom: 500px;
-  width: 100%;
+  padding-bottom: 100px;
+  max-width: 100%;
 }
 .PicutureContainers {
   position: absolute;
@@ -77,7 +88,7 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: #5F5F5F;
-  width: 100%;
+  max-width: 100%;
   z-index: 2;
 
 }
@@ -115,16 +126,29 @@ html {
   font-size: 1rem;
 }
 /* Bottom of main body*/
-footer {
-  position: fixed;
-  width: 100%;
-  z-index: 4;
-  color: white;
-  background-color: black;
+.footer {
 
+  text-align: center;
+  font-size: 0.75em;
+  bottom:0;
+  background-color: navy;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-
+.footer h3{
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+}
+.footer p{
+  font-size: 1rem;
+  color:white;
+  padding: 10px;
+}
 
 
 
