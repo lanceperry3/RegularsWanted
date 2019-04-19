@@ -22,7 +22,7 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: navy;
+  background-color: #003A70;
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -131,7 +131,7 @@ body{
   text-align: center;
   font-size: 0.75em;
   bottom:0;
-  background-color: navy;
+  background-color: #003A70;
   width: 100%;
   position: relative;
   z-index: 0;
