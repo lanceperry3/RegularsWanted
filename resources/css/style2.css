@@ -22,7 +22,7 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #003A70;
+  background-image: url("https://bn1305files.storage.live.com/y4mT147d-La0AjDPBjlJ2NEwAo_zxMldMaM4t0qmNR3I6SzJgnbGI0j1FRsjruggLI9YJ-eHs_M4m9pwhRH70sehya74UfR_YqDRZe-WOcsIBHnBlQaVZRTzadY_I1ZDmH03bvM2rg8msV7ivAMCoAsGz24G1qJUQzqHnbjS-vT7HGklgLaF4wPJnztX88xb6TA_iWsYnS5QZTMnQa8D-WwSw/DSC_0542.JPG?psid=1&width=1315&height=880");
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -79,8 +79,7 @@ body{
 
   background-color: #5F5F5F;
   padding-bottom: 100px;
-  width: 100%;
-
+  max-width: 100%;
 }
 .PicutureContainers {
   position: absolute;
@@ -89,9 +88,8 @@ body{
   justify-content: space-around;
   align-items: center;
   background-color: #5F5F5F;
-  width: 100%;
+  max-width: 100%;
   z-index: 2;
-  margin: auto;
 
 }
 .MainPicImg {
@@ -100,15 +98,14 @@ body{
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
+
   padding-top: 2rem;
   padding-bottom: 2rem;
 
 }
 .MainPicImg img{
 
-  max-width: 75%;
-  margin: auto;
+  max-width: 50%;
 
 }
 .MainBodyTextBoxMenu ,
@@ -139,22 +136,8 @@ body{
   color: #003A70;
 }
 
-.MainBodyTextBoxBeanery{
-  position: absolute;
-  display: inline-flex;
-  flex-flow: column;
-  justify-content: space-around;
-  display: inline-block;
-  text-align: center;
-  font-size: 2rem;
-  
-  padding: 20px;
-  color: white;
-}
-.MainBodyTextBoxBeanery img{
-  padding-top: 20px;
-  max-width: 50%;
-}
+
+
 /* Bottom of main body*******************************************************/
 .footer {
 
