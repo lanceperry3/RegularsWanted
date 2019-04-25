@@ -8,13 +8,6 @@ body{
 
 }
 
-.SmallLogo {
-  position: fixed;
-  z-index: 3;
-}
-.SmallLogo img {
-  height: 6rem;
-}
 /* Large Window formating********************************/
 
 .LargeWindow {
@@ -29,7 +22,7 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   height: 1000px;
   width: 100%;
   z-index: 1
@@ -54,24 +47,11 @@ body{
 
 .ImgLargeWindow p {
   text-align: center;
-  color: white;
+  color: #5F5F5F;
   font-size: 3rem;
   padding: 2rem;
 }
-/*
-.ContentLargeWindow{
-  position: fixed;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  color: white;
-  text-align: center;
-  font-size: 1.25rem;
 
-  max-width: 60%;
-  line-height: 1.2;
-}
-*/
 /* Main Body Formating */
 
 
@@ -79,7 +59,7 @@ body{
 
   background-color: #5F5F5F;
   padding-bottom: 100px;
-  max-width: 100%;
+  width: 100%;
 }
 .PicutureContainers {
   position: absolute;
@@ -88,60 +68,88 @@ body{
   justify-content: space-around;
   align-items: center;
   background-color: #5F5F5F;
-  max-width: 100%;
+  width: 100%;
   z-index: 2;
 
 }
-.MainPicImg {
+.Section {
   position: relative;
   display: inline-flex;
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-
+  max-width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: thick;
 }
-.MainPicImg img{
 
-  max-width: 50%;
-
+.Section h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color:White;
+  padding: 40px;
 }
-.MainBodyTextBoxMenu ,
-.MainBodyTextBox,
-.MainBodyTextBoxStory{
-  position: absolute;
-  display: inline-flex;
-  flex-flow: column;
-  justify-content: space-around;
-  display: inline-block;
-  text-align: center;
-  background-color: orange;
-  font-size: 4rem;
+
+.Section p {
+  font-size: 15px;
+  padding: 40px;
+  color:White;
+}
+
+.ImgContainer {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+}
+.ImgContainer img {
+  height: 300px;
+  margin: auto;
   padding: 20px;
 }
-.MainBodyTextBoxMenu,
-.MainBodyTextBoxStory{
-  text-decoration: none;
-}
-.MainBodyTextBox h3,
-.MainBodyTextBoxLink h3 {
-  font-size: 2rem;
-  color: #003A70;
-}
-.MainBodyTextBox p,
-.MainBodyTextBoxLink  p{
-  font-size: 1rem;
-  color: #003A70;
+/* Recongnition Secton */
+
+.Recongnition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-size: 0.75em;
+  bottom:0;
+  background-color: #5F5F5F;
+  width: 50%;
+  position: relative;
+  z-index: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+
 }
 
+.Recongnition h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color:White;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
 
-
+.Recongnition p {
+  font-size: 15px;
+  color:White;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
 /* Bottom of main body*******************************************************/
 .footer {
 
   text-align: center;
+  vertical-align: middle;
   font-size: 0.75em;
   bottom:0;
   background-color: #003A70;
@@ -163,10 +171,39 @@ body{
   padding: 10px;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 
+/* Set a specific color for each brand */
 
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #3f729b;
+  color: white;
+}
 
 
 
