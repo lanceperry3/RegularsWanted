@@ -50,6 +50,7 @@ body{
   color: #5F5F5F;
   font-size: 3rem;
   padding: 2rem;
+  max-width: 60%;
 }
 
 /* Main Body Formating */
@@ -94,9 +95,12 @@ body{
 }
 
 .Section p {
-  font-size: 15px;
+  font-size: 18px;
   padding: 40px;
   color:White;
+  max-width: 40%;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .ImgContainer {
